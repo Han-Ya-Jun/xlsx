@@ -7,11 +7,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/bingoohuang/xlsx/pkg/upload"
+	"github.com/Han-Ya-Jun/xlsx/pkg/upload"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/bingoohuang/xlsx"
+	"github.com/Han-Ya-Jun/xlsx"
 )
 
 func TestUpload(t *testing.T) {

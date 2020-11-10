@@ -1,7 +1,7 @@
 Go语言Excel读写库使用手册
 
-1. 引入库 `import "github.com/bingoohuang/xlsx"`
-1. 定义EXCEL模板，参见[示例](https://github.com/bingoohuang/xlsx/blob/master/testdata/template.xlsx)
+1. 引入库 `import "github.com/Han-Ya-Jun/xlsx"`
+1. 定义EXCEL模板，参见[示例](https://github.com/Han-Ya-Jun/xlsx/blob/master/testdata/template.xlsx)
 1. 定义Go结构，与模板对应，例如:
 
     ```go
@@ -42,4 +42,4 @@ Go语言Excel读写库使用手册
     ```
 
 
-1. 更多高级用法与示例，请[移步](https://github.com/bingoohuang/xlsx)
+1. 更多高级用法与示例，请[移步](https://github.com/Han-Ya-Jun/xlsx)

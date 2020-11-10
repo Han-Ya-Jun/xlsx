@@ -1,16 +1,16 @@
 # xlsx
 
 [![Travis CI](https://img.shields.io/travis/bingoohuang/xlsx/master.svg?style=flat-square)](https://travis-ci.com/bingoohuang/xlsx)
-[![Software License](https://img.shields.io/badge/License-MIT-orange.svg?style=flat-square)](https://github.com/bingoohuang/xlsx/blob/master/LICENSE.md)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/bingoohuang/xlsx)
+[![Software License](https://img.shields.io/badge/License-MIT-orange.svg?style=flat-square)](https://github.com/Han-Ya-Jun/xlsx/blob/master/LICENSE.md)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/Han-Ya-Jun/xlsx)
 [![Coverage Status](http://codecov.io/github/bingoohuang/xlsx/coverage.svg?branch=master)](http://codecov.io/github/bingoohuang/xlsx?branch=master)
-[![goreport](https://www.goreportcard.com/badge/github.com/bingoohuang/xlsx)](https://www.goreportcard.com/report/github.com/bingoohuang/xlsx)
+[![goreport](https://www.goreportcard.com/badge/github.com/Han-Ya-Jun/xlsx)](https://www.goreportcard.com/report/github.com/Han-Ya-Jun/xlsx)
 
 golang mapping between xlsx and struct instances.
 
 本库提供高层golang的struct切片和excel文件的映射，避免直接处理底层sheet/row/cells等细节。
 
-本库底层使用[unioffice](https://github.com/unidoc/unioffice)，其提供了比[360EntSecGroup-Skylar/excelize](https://github.com/bingoohuang/xlsx)更加友好的API。
+本库底层使用[unioffice](https://github.com/unidoc/unioffice)，其提供了比[360EntSecGroup-Skylar/excelize](https://github.com/Han-Ya-Jun/xlsx)更加友好的API。
 
 还有另外一个比较活跃的底层实现[tealeg/xlsx](https://github.com/tealeg/xlsx)尚未认证。
 
@@ -21,7 +21,7 @@ golang mapping between xlsx and struct instances.
 ```go
 package main
 
-import "github.com/bingoohuang/xlsx"
+import "github.com/Han-Ya-Jun/xlsx"
 
 type memberStat struct {
 	Total     int `title:"会员总数" sheet:"会员"` // sheet可选，不声明则选择首个sheet页读写

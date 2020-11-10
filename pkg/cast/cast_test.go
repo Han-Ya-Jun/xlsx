@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/bingoohuang/xlsx/pkg/cast"
+	. "github.com/Han-Ya-Jun/xlsx/pkg/cast"
 
 	"github.com/stretchr/testify/assert"
 )

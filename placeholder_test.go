@@ -3,7 +3,7 @@ package xlsx_test
 import (
 	"testing"
 
-	"github.com/bingoohuang/xlsx"
+	"github.com/Han-Ya-Jun/xlsx"
 	"github.com/stretchr/testify/assert"
 )
 
